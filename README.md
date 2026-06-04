@@ -1,37 +1,78 @@
 # GreyNOC Operator Guides
 
-Central public repository for GreyNOC cybersecurity operator guides, defensive field references, and responsible-use technical documentation.
+Public operator-guide repository for GreyNOC defensive cybersecurity documentation, field references, and responsible-use technical guidance.
 
-## Current Guides
+This repository is intended to house practical guides for operators, administrators, students, and defenders who need clear, safe, authorized procedures for configuring systems, hardening environments, documenting workflows, and supporting defensive security operations.
 
-| Guide | Latest PDF | Status |
+## Current Repository Status
+
+This repository is currently in its initial documentation setup stage.
+
+Available files:
+
+| Path | Purpose | Status |
 |---|---|---|
-| GreyNOC EDC Operator Guide — Android Defensive Stack | `guides/edc-android-operator-guide/GreyNOC_EDC_Operator_Guide_v1.8.pdf` | Public release |
+| `README.md` | Repository overview and usage guidance | Active |
+| `LICENSE` | MIT license for repository documentation/code where applicable | Active |
 
-## Repository Structure
+No public operator guide PDFs or guide subdirectories are currently present on the `main` branch.
+
+## Planned Guide Areas
+
+Future guide folders may include:
+
+- Endpoint defensive stack setup
+- Android and mobile-device defensive operations
+- SOC and NOC operator checklists
+- Network monitoring references
+- Secure administration workflows
+- Incident triage field notes
+- Home-lab and training documentation
+- Responsible vulnerability-assessment procedures
+
+Planned structure:
 
 ```text
 .
 ├── README.md
 ├── LICENSE
 ├── guides/
-│   └── edc-android-operator-guide/
+│   └── <guide-name>/
 │       ├── README.md
-│       └── GreyNOC_EDC_Operator_Guide_v1.8.pdf
+│       ├── <guide>.md
+│       └── <guide>.pdf
 └── archive/
-    └── edc-android-operator-guide/
-        ├── v1.6/
-        ├── v1.7/
-        └── v1.8/
+    └── <guide-name>/
+        └── <version>/
 ```
 
 ## Responsible Use Notice
 
-These guides are published for public education, defensive operations, and authorized system administration only.
+GreyNOC documentation is published for education, defensive operations, authorized administration, and lawful security work only.
 
-Use all tools and procedures only on devices, networks, accounts, and lab environments you own or have explicit written permission to administer or test.
+Use all procedures, tools, commands, and examples only on systems, devices, accounts, networks, and lab environments that you own or have explicit written permission to administer, monitor, assess, or test.
 
-GreyNOC does not endorse unauthorized access, exploitation, credential attacks, interception, evasion, stealth, malware, or bypassing access controls.
+GreyNOC does not endorse or support unauthorized access, credential theft, exploitation against third-party systems, interception of private communications, evasion, persistence, malware deployment, bypassing access controls, or any activity that violates applicable law or policy.
+
+## How to Use This Repository
+
+1. Review this README for repository scope and safety expectations.
+2. Check the `guides/` directory when guide content is added.
+3. Use archived versions only when you specifically need older material.
+4. Validate commands and procedures in a controlled lab before applying them in production.
+5. Follow your organization’s policies, change-management process, and authorization requirements.
+
+## Contributing
+
+Contributions should be clear, defensive, and responsible-use focused.
+
+Before adding new material, ensure that it:
+
+- Serves a defensive, educational, or authorized administration purpose.
+- Avoids instructions that enable unauthorized access or abuse.
+- Clearly states assumptions, prerequisites, and safe operating boundaries.
+- Uses versioned filenames or folders when publishing major guide updates.
+- Keeps public-facing language professional and easy to understand.
 
 ## Website
 
