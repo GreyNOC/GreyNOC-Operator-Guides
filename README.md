@@ -1,25 +1,36 @@
 # GreyNOC Operator Guides
 
-Public operator-guide repository for GreyNOC defensive cybersecurity documentation, field references, and responsible-use technical guidance.
+GreyNOC Operator Guides is a public documentation repository for defensive cybersecurity, system administration, and operator-focused field references.
 
-This repository is intended to house practical guides for operators, administrators, students, and defenders who need clear, safe, authorized procedures for configuring systems, hardening environments, documenting workflows, and supporting defensive security operations.
+The goal of this repo is to provide clear, practical, responsible-use guidance for people who configure systems, harden environments, monitor networks, triage security events, and document repeatable operational workflows.
 
-## Current Repository Status
+## Repository Status
 
-This repository is currently in its initial documentation setup stage.
+This repository is in its initial documentation setup stage.
 
-Available files:
+Current files on the `main` branch:
 
 | Path | Purpose | Status |
-|---|---|---|
-| `README.md` | Repository overview and usage guidance | Active |
-| `LICENSE` | MIT license for repository documentation/code where applicable | Active |
+| --- | --- | --- |
+| `README.md` | Repository overview, scope, and contribution guidance | Active |
+| `LICENSE` | MIT license for repository content where applicable | Active |
 
-No public operator guide PDFs or guide subdirectories are currently present on the `main` branch.
+Guide directories and downloadable guide files have not been published yet.
+
+## Intended Audience
+
+These guides are written for:
+
+- SOC and NOC operators
+- System administrators
+- Network defenders
+- Security students and home-lab learners
+- Small-business IT teams
+- Authorized vulnerability-assessment and hardening work
 
 ## Planned Guide Areas
 
-Future guide folders may include:
+Future content may include:
 
 - Endpoint defensive stack setup
 - Android and mobile-device defensive operations
@@ -46,33 +57,56 @@ Planned structure:
         └── <version>/
 ```
 
-## Responsible Use Notice
+## Responsible Use
 
 GreyNOC documentation is published for education, defensive operations, authorized administration, and lawful security work only.
 
-Use all procedures, tools, commands, and examples only on systems, devices, accounts, networks, and lab environments that you own or have explicit written permission to administer, monitor, assess, or test.
+Use procedures, tools, commands, and examples only on systems, devices, accounts, networks, and lab environments that you own or have explicit written permission to administer, monitor, assess, or test.
 
-GreyNOC does not endorse or support unauthorized access, credential theft, exploitation against third-party systems, interception of private communications, evasion, persistence, malware deployment, bypassing access controls, or any activity that violates applicable law or policy.
+This repository does not support or endorse unauthorized access, credential theft, exploitation against third-party systems, interception of private communications, evasion, persistence, malware deployment, bypassing access controls, or activity that violates law, policy, or terms of service.
 
 ## How to Use This Repository
 
-1. Review this README for repository scope and safety expectations.
-2. Check the `guides/` directory when guide content is added.
-3. Use archived versions only when you specifically need older material.
-4. Validate commands and procedures in a controlled lab before applying them in production.
-5. Follow your organization’s policies, change-management process, and authorization requirements.
+1. Start with this README to understand the repo scope and safety expectations.
+2. Review guide-specific README files when guide folders are added.
+3. Validate commands and procedures in a controlled lab before using them in production.
+4. Follow your organization’s authorization, logging, change-management, and documentation requirements.
+5. Use archived versions only when older material is specifically required.
 
-## Contributing
+## Contribution Guidelines
 
-Contributions should be clear, defensive, and responsible-use focused.
+Contributions should be practical, defensive, and easy to follow.
 
-Before adding new material, ensure that it:
+Before adding new material, make sure it:
 
-- Serves a defensive, educational, or authorized administration purpose.
+- Has a clear defensive, educational, or authorized administration purpose.
+- States assumptions, prerequisites, supported platforms, and safety boundaries.
 - Avoids instructions that enable unauthorized access or abuse.
-- Clearly states assumptions, prerequisites, and safe operating boundaries.
-- Uses versioned filenames or folders when publishing major guide updates.
-- Keeps public-facing language professional and easy to understand.
+- Includes verification steps when possible.
+- Uses clear filenames and versioned folders for major guide updates.
+- Keeps public-facing language professional and understandable.
+
+Suggested guide format:
+
+```markdown
+# Guide Title
+
+## Purpose
+
+## Audience
+
+## Prerequisites
+
+## Safety and Authorization Notes
+
+## Procedure
+
+## Verification
+
+## Troubleshooting
+
+## References
+```
 
 ## Website
 
@@ -84,4 +118,4 @@ customerservice@greynoc.com
 
 ## License
 
-MIT License. See `LICENSE`.
+MIT License. See [`LICENSE`](LICENSE).
