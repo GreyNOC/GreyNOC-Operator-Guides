@@ -6,7 +6,7 @@ The goal of this repo is to provide clear, practical, responsible-use guidance f
 
 ## Repository Status
 
-This repository is in its initial documentation setup stage.
+This repository is active and currently publishes public PDF guide material from the root of the `main` branch.
 
 Current files on the `main` branch:
 
@@ -14,8 +14,9 @@ Current files on the `main` branch:
 | --- | --- | --- |
 | `README.md` | Repository overview, scope, and contribution guidance | Active |
 | `LICENSE` | MIT license for repository content where applicable | Active |
-
-Guide directories and downloadable guide files have not been published yet.
+| `GreyNOC_Linux_on_Android_Public_Guide_v1.1.pdf` | Public guide for Linux-on-Android defensive and educational workflows | Active |
+| `GreyNOC_Employee_Nutrition_Fitness_and_Hand_Safety_Program_v1.1_Public_Release.pdf` | Public employee wellness, fitness, nutrition, and hand-safety program guide | Active |
+| `GreyNOC_v1.3_Public_Cyber_Hygiene_Guide.pdf` | Public cyber hygiene guide for defensive security awareness and safe operations | Active |
 
 ## Intended Audience
 
@@ -28,10 +29,13 @@ These guides are written for:
 - Small-business IT teams
 - Authorized vulnerability-assessment and hardening work
 
-## Planned Guide Areas
+## Guide Areas
 
-Future content may include:
+Current and planned content areas include:
 
+- Linux-on-Android defensive and educational workflows
+- Public cyber hygiene practices
+- Employee wellness, safety, and readiness guidance
 - Endpoint defensive stack setup
 - Android and mobile-device defensive operations
 - SOC and NOC operator checklists
@@ -41,12 +45,13 @@ Future content may include:
 - Home-lab and training documentation
 - Responsible vulnerability-assessment procedures
 
-Planned structure:
+Planned structure for future guide folders:
 
 ```text
 .
 ├── README.md
 ├── LICENSE
+├── <published-guide>.pdf
 ├── guides/
 │   └── <guide-name>/
 │       ├── README.md
@@ -68,7 +73,7 @@ This repository does not support or endorse unauthorized access, credential thef
 ## How to Use This Repository
 
 1. Start with this README to understand the repo scope and safety expectations.
-2. Review guide-specific README files when guide folders are added.
+2. Open the published PDF guide that matches your use case.
 3. Validate commands and procedures in a controlled lab before using them in production.
 4. Follow your organization’s authorization, logging, change-management, and documentation requirements.
 5. Use archived versions only when older material is specifically required.
