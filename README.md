@@ -17,6 +17,8 @@ Current files on the `main` branch:
 | `GreyNOC_Linux_on_Android_Public_Guide_v1.1.pdf` | Public guide for Linux-on-Android defensive and educational workflows | Active |
 | `GreyNOC_Employee_Nutrition_Fitness_and_Hand_Safety_Program_v1.1_Public_Release.pdf` | Public employee wellness, fitness, nutrition, and hand-safety program guide | Active |
 | `GreyNOC_v1.3_Public_Cyber_Hygiene_Guide.pdf` | Public cyber hygiene guide for defensive security awareness and safe operations | Active |
+| `GreyNOC_Windows_Max_Privacy_Public_Guide_v1.2_Readability_Update.pdf` | Public Windows privacy and hardening guide with readability updates | Active |
+| `greynoc_super_users_public_brief_v1 (1).pdf` | Public brief on GreyNOC super users and advanced operator practices | Active |
 
 ## Intended Audience
 
@@ -34,7 +36,9 @@ These guides are written for:
 Current and planned content areas include:
 
 - Linux-on-Android defensive and educational workflows
+- Windows privacy and hardening practices
 - Public cyber hygiene practices
+- GreyNOC super-user and advanced-operator practices
 - Employee wellness, safety, and readiness guidance
 - Endpoint defensive stack setup
 - Android and mobile-device defensive operations
